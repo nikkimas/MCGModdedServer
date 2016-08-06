@@ -2,29 +2,76 @@
 	{"token":MjA2MzYyMzc0NTY1OTIwNzY5.CofMmA.TvKn-Ai8yxyTOL_eikqYb6fM9iw"",
 	"channel":mc"",
 	"ignoreBots":false,
-		"commands":{"prefix":"!",
-			"online":{"enabled":true,
-			"roles":[],"aliases":[]},
-			"tps":{"enabled":false,
-			"roles":[],"aliases":[],"colored":false},
-			"unstuck":{"enabled":false,
-			"roles":["AdminRoleHere"],
-			"aliases":[]},
+		"commands":{
+			"prefix":"!",
+			"online":{
+				"enabled":true,
+				"roles":[],
+				"aliases":[]
+			},
+			
+			"tps":{
+				"enabled":false,
+				"roles":[],
+				"aliases":[],
+				"colored":false
+			},
+			
+			"unstuck":{
+				"enabled":false,
+				"roles":["AdminRoleHere"],
+				"aliases":[]
+			},
+			
 			"custom":[]
 		}
 	},
 		"messages":{
 			"discord":{
-				"chat":{"enabled":true,"message":"<__%USER%__> %MESSAGE%","relaySayCommand":true,"useEmotes":true},
-				"death":{"enabled":true,"message":"__%USER%__ %MESSAGE%"},
-				"achievement":{"enabled":true,"message":"Congrats to __%USER%__ for earning the achievement **%ACHIEVEMENT%** (%DESCRIPTION%)"},
-				"join":{"enabled":true,"message":"__%USER%__ has joined the server!"},
-				"leave":{"enabled":true,"message":"__%USER%__ left the server!"},
-				"startup":{"enabled":false,"message":"**Server started**"},
-				"shutdown":{"enabled":false,"message":"**Server shutdown**"}
+				"chat":{
+					"enabled":true,
+					"message":"<__%USER%__> %MESSAGE%",
+					"relaySayCommand":true,
+					"useEmotes":true
+				},
+				
+				"death":{
+					"enabled":true,
+					"message":"__%USER%__ %MESSAGE%"
+				},
+				
+				"achievement":{
+					"enabled":true,
+					"message":"Congrats to __%USER%__ for earning the achievement **%ACHIEVEMENT%** (%DESCRIPTION%)"
+				},
+				
+				"join":{
+					"enabled":true,
+					"message":"__%USER%__ has joined the server!"
+				},
+				
+				"leave":{
+					"enabled":true,
+					"message":"__%USER%__ left the server!"
+				},
+				
+				"startup":{
+					"enabled":false,
+					"message":"**Server started**"
+				},
+				
+				"shutdown":{
+					"enabled":false,
+					"message":"**Server shutdown**"
+				}
 			},
 			"minecraft":{
-				"chat":{"enabled":true,"message":"<__%USER%__> %MESSAGE%","maxLength":-1,"usernameColor":"red"}
+				"chat":{
+					"enabled":true,
+					"message":"<__%USER%__> %MESSAGE%",
+					"maxLength":-1,
+					"usernameColor":"red"
+				}
 			}
 		},
 		
